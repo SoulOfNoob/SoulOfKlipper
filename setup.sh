@@ -1,7 +1,9 @@
-#/bin/sh!
+#!/bin/bash
 
-PRINTER=AM8
 SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
+
+source $SCRIPT_DIR/etc/vars.sh
+source $SCRIPT_DIR/etc/wizard.sh
 
 sudo service klipper stop
 
