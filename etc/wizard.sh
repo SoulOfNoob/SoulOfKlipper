@@ -22,7 +22,7 @@ case $printer_int in
         PRINTER="4MAX"
         ;;
     *)
-        printf "${LOGPREFIX}|${SECTION_PREFIX}| ${ERROR} ${YELLOW}Not a valid Selection ${NL}"
+        printf "${LOGPREFIX}|${SECTION_PREFIX}| ${ERROR} ${YELLOW} '${printer_int}' is Not a valid Selection ${NL}"
         exit
         ;;
 esac
