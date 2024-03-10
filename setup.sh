@@ -8,6 +8,6 @@ source $SCRIPT_DIR/etc/wizard.sh
 sudo service klipper stop
 
 cp -rf $SCRIPT_DIR/config/* ~/printer_data/config/
-mv printer_$PRINTER.cfg printer.cfg
+mv $SCRIPT_DIR/config/printer_$PRINTER.cfg ~/printer_data/config/printer.cfg
 
 sudo service klipper start
