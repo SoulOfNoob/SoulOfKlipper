@@ -14,7 +14,7 @@ sudo service klipper stop
 mkdir -p $DST_CONFIG_DIR/PrinterOverrides
 cp -rf $SRC_CONFIG_DIR/PrinterOverrides/$PRINTER $DST_CONFIG_DIR/PrinterOverrides/
 mkdir -p $DST_CONFIG_DIR/OrcaSlicerPresets
-cp -rf $SRC_CONFIG_DIR/OrcaSlicerPresets/$PRINTER.orca_printer $DST_CONFIG_DIR/OrcaSlicerPresets/
+cp -rf $SRC_CONFIG_DIR/OrcaSlicerPresets/$PRINTER.* $DST_CONFIG_DIR/OrcaSlicerPresets/
 cp -rf $SRC_CONFIG_DIR/UniversalMacros $DST_CONFIG_DIR/
 cp -rf $SRC_CONFIG_DIR/printer_$PRINTER.cfg $DST_CONFIG_DIR/
         
